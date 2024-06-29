@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.logo img{
+    height: 120px;
+    width: 220px;
+    margin-right: 30rem;
+
+}
+.navbar{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lan{
+    display: flex;
+}
+.lan img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 1px 1px;
+}
+.lan select{
+    background-color: black;
+    
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-right: 2rem;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 1rem;
+}
+.nav{
+    
+    align-items: center;
+    display: flex;
+    margin-right: 40rem;
+}
+.nav select{
+    background-color: black;
+    padding: 1px 1px;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-right: 2rem;
+    margin-left: 18rem;
+}
+.nav img{
+    height: 29px;
+    width: 29px;
+    background-color: rgb(67, 65, 65);
+   border: none;
+   outline: none;
+   
+}
+.search{
+    display: flex;
+    margin-left: 30rem;
+}
+.search :hover{
+    border: 1px solid white;
+}
+.search input{
+    height: 29px;
+    width: 300px;
+    background-color:rgb(62, 61, 61);
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    text-emphasis-color: white;
+}
+.main{
+    display: flex;
+}
+.left{
+    height: 500px;
+    width: 1200px;
+   
+    text-align: center;
+    justify-content: center;
+}
+
+.left h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10rem;
+}
+.btn{
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(225, 178, 7);
+    color: black;
+   font-weight: 600;
+    height: 40px;
+    width: 200px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 1px 1px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(225, 178, 7);
+    border-color: rgb(225, 178, 7);
+}
+.left h4{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+   
+}
+.images{
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.images img{
+    border: 2px solid transparent;
+    border-radius: 10%;
+    padding: 5px 5px;
+    height: 200px;
+    width: 200px;
+   transform: rotate(25deg);
+   margin-left: 2rem;
+   margin-top: 0.5rem;
+   cursor: pointer;
+    box-shadow: 5px 5px rgb(67, 65, 65);
+    
+}
+.images img:hover{
+    border: 2px solid white;
+}
+.section h2{
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    justify-content: center;
+    padding: 2px 2px;
+    margin-top: 4rem;
+
+}
+.cards{
+    margin-top: 2rem;
+    margin-left: 13rem;
+    display: flex;
+    height: 300px;
+    width: 1000px;
+    border: 7px solid rgb(152, 9, 152);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.card{
+    padding: 1px 1px;
+    
+}
+.card h3{
+    font-size: 2rem;
+    font-weight: 1000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+.card p{
+    font-size: 1rem;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.hero{
+    display: flex;
+}
+.support{
+    height: 100px;
+    width: 200px;
+    background-color: gray;
+    color: purple;
+    text-align: center;
+    position: relative;
+    margin-left: 74rem;
+    margin-top: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+.try{
+    background-color: rgb(225, 178, 7);
+    color: black;
+   font-weight: 600;
+    height: 40px;
+    width: 200px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 1px 1px;
+    margin-top: 8rem;
+    margin-left: 40rem;
+
+}
+.try:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(225, 178, 7);
+    border-color: rgb(225, 178, 7);
+}
+.card img{
+    padding: 2px 2px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10rem;
+
+}
+.photo{
+    align-items: center;
+    justify-content: center;
+}
+.photo img{
+    padding: 2px 2px;
+    margin-top: 2rem;
+    margin-left: 43rem;
+}
+.box{
+    border: 1px solid black;
+    width: 80%;
+    max-width: 440px;
+    padding: 40px 35px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    margin: 30px auto 0;
+    
+    text-align: center;
+}
+.box h3{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.box h5{
+    font-size: 1rem;
+}
+.box input{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 2px solid rgb(225, 101, 7);
+}
+
+.button{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: rgb(225, 101, 7);
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+
+}
+.button:hover{
+    background-color:rgb(238, 144, 72);
+   
+}
+.box p{
+    font-family: 'Poppins',sans-serif;
+    line-height: normal;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+span{
+    color: blue;
+    margin-bottom: 1rem;
+}
+.box a{
+    color: blue;
+    margin-top: 8rem;
+    margin-right: 21rem;
+}
+.info{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 25px;
+    width: 80%;
+    max-width: 440px;
+    margin: 30px auto 0;
+}
+.create{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: rgb(217, 214, 214);
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.create:hover{
+    background-color: gray;
+}
+.about a{
+    margin-top: 10rem;
+    justify-content: space-between;
+    text-decoration: none;
+    outline: none;
+    margin-right: 2rem;
+    cursor: pointer;
+  
+}
